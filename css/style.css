@@ -138,7 +138,7 @@ aside {
 footer {
   text-align: center;
   color: blue;
-  background-color: black;
+  background-color: rgb(246, 246, 246);
 }
 
 @keyframes fadeIn {
@@ -152,7 +152,7 @@ footer {
 
 /* Apply the animation to the footer text */
 footer p {
-  animation: fadeIn 1s ease-in-out;
+  animation: fadeIn 2s linear infinite;
 }
 
 
