@@ -154,3 +154,24 @@ footer {
 footer p {
   animation: fadeIn 1s ease-in-out;
 }
+
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .social-icons img,
+  .social-icons i {
+    width: 30px; 
+  }
+}
+
+.social-icons img {
+  margin: 0 10px; 
+  width: 40px; 
+  height: auto; 
+}
