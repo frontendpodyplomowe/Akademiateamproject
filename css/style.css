@@ -24,7 +24,7 @@ img {
 #container {
   width: 1000px;
   margin: 0 auto;
-  border: 5px solid darkviolet;
+  border: 5px solid green;
   border-radius: 10px;
 }
 
@@ -48,21 +48,26 @@ nav ul li {
 /* Domyslnie 1rem=1em=16px */
 nav ul li a {
   font-size: 18px;
-  color: black;
+  color: rgb(20, 102, 202);
   padding: 10px 15px;
   text-decoration: none;
 }
 
 /* pseudoklasa CSS */
 nav ul li a:hover {
-  color: white;
-  background-color: black;
+  color: rgb(164, 59, 59);
+  background-color: rgb(119, 42, 42));
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  
+  
 }
 
 /* Korzystajac tylko z pseudoklas zmien kolor na niebieski napisu Strona glowna w menu */
-nav ul li:first-child a {
-  color: blue;
-}
+/* nav ul li: a {
+  color: rgb(23, 116, 229);
+  
+} */
 
 /* Slider */
 .slider img {
@@ -90,6 +95,7 @@ article {
 
 article img {
   border: 5px solid rgb(109, 94, 42);
+  padding: 10px;
 }
 
 aside {
@@ -122,8 +128,10 @@ aside {
   padding-left: 15px;
 }
 
-/* Footer */
-/* homework ładnie ostylowac w CSS */
+.fa-brands {
+  padding: 10px 10px 20px;
+  color: black
+}
 
 footer {
   text-align: center;
