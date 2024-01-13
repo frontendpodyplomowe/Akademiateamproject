@@ -120,8 +120,10 @@ aside {
   padding-left: 15px;
 }
 
-/* Footer */
-/* homework ładnie ostylowac w CSS */
+.fa-brands {
+  padding: 10px 10px 20px;
+  color: black
+}
 
 footer {
   text-align: center;
