@@ -83,10 +83,18 @@ main {
 article {
   width: 70%;
   margin-left: 20px;
+  margin-right: 20px;
+}
+
+.dune svg{
+  display: block;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
 }
 
 article img {
-  border: 5px solid yellow;
+  border: 5px solid rgb(109, 94, 42);
   padding: 10px;
 }
 
