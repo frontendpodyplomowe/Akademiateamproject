@@ -24,7 +24,7 @@ img {
 #container {
   width: 1000px;
   margin: 0 auto;
-  border: 5px solid darkviolet;
+  border: 5px solid green;
   border-radius: 10px;
 }
 
@@ -81,7 +81,7 @@ article {
 }
 
 article img {
-  border: 5px solid red;
+  border: 5px solid yellow;
   padding: 10px;
 }
 
